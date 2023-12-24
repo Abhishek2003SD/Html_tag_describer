@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+
+    background-image: url('styleImages/background.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+#tag-describer {
+    width: 400px;
+    padding: 20px;
+    border: 10px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #00000064;
+    
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+   
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    readonly: true;
+    color:blue;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff00bb;
+    color: #fff;
+    font-family:Eras Bold ITC;
+    font-size:25px;
+}
+
+h3{
+    color:#fff;
+    text-align:center;
+}
+
+h6{
+    color:#fff;
+}
